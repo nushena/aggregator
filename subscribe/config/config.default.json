@@ -11,7 +11,6 @@
             "push_to": [],
             "ignorede": true,
             "liveness": true,
-            "tag": "",
             "rate": 2.5,
             "count": 2,
             "coupon": "",
@@ -160,32 +159,33 @@
             }
         }
     },
-"storage": {  
-    "engine": "gist",  
-    "token": "${GIST_PAT}",  
-    "base": "https://api.github.com",  
-    "domain": "https://gist.githubusercontent.com",  
-    "items": {  
-      "12-clash": {  
-        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
-        "filename": "12-clash.yaml"  
-      },  
-      "23-singbox": {  
-        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
-        "filename": "23-singbox.yaml"  
-      },  
-      "v2ray": {  
-        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
-        "filename": "v2ray.yaml"  
-      },  
-      "crawledsubs": {  
-        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
-        "filename": "crawledsubs.yaml"  
-      },  
-      "crawledproxies": {  
-        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
-        "filename": "crawledproxies.yaml"  
-      }  
-    }  
-  }  
+    "storage": {
+        "engine": "xxx",
+        "base": "https://api.xxx.com",
+        "domain": "https://xxx.com",
+        "items": {
+            "xxx-clash": {
+                "username": "",
+                "folderid": "",
+                "fileid": ""
+            },
+            "xxx-singbox": {
+                "fileid": ""
+            },
+            "xxx-v2ray": {
+                "username": "",
+                "fileid": ""
+            },
+            "crawledsubs": {
+                "username": "",
+                "folderid": "",
+                "fileid": ""
+            },
+            "crawledproxies": {
+                "username": "",
+                "folderid": "",
+                "fileid": ""
+            }
+        }
+    }
 }
