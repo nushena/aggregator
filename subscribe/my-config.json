@@ -26,6 +26,7 @@
     },
     "storage": {
         "engine": "gist",
+        "token": ${GIST_PAT},
         "items": {
             "free:clash": {
                 "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",
