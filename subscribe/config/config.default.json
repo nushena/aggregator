@@ -1,153 +1,148 @@
-{
-  "domains": [
-    {
-      "name": "纯爬虫",
-      "sub": [],
-      "domain": "",
-      "enable": false,
-      "rename": "",
-      "include": "",
-      "exclude": "",
-      "push_to": [],
-      "ignorede": true,
-      "liveness": true,
-      "rate": 2.5,
-      "count": 2,
-      "coupon": "",
-      "secure": false,
-      "renew": {
-        "account": [],
-        "plan_id": 3,
-        "package": "",
-        "method": 1,
-        "coupon_code": "",
-        "chatgpt": {
-          "enable": false,
-          "regex": "",
-          "operate": "IN"
-        }
-      }
-    }
-  ],
-  "crawl": {
-    "enable": true,
-    "exclude": "",
-    "threshold": 5,
-    "singlelink": true,
-    "persist": {
-      "subs": "crawledsubs",
-      "proxies": "crawledproxies"
-    },
-    "config": {
-      "rename": "",
-      "include": "",
-      "exclude": "",
-      "xxxxxxx": ""
-    },
-    "telegram": {
-      "enable": true,
-      "pages": 6,
-      "exclude": "",
-      "users": {
-        "go4sharing": {
-          "include": "机场,clash,订阅,节点,proxy,科学上网,v2ray,vless,trojan,socks5,ssr,白嫖",
-          "exclude": "试用,免费,测试,失效,过期,广告,推广,加群",
-          "config": {
-            "rename": "TG机场源-go4sharing"
-          },
-          "push_to": ["12-clash"]
-        },
-        "ZYFXS001": {
-          "include": "机场,clash,订阅,节点,proxy,科学上网,v2ray,vless,trojan,socks5,ssr,白嫖",
-          "exclude": "试用,免费,测试,失效,过期,广告,推广,加群",
-          "config": {
-            "rename": "TG机场源-ZYFXS001"
-          },
-          "push_to": ["12-clash"]
-        },
-        "vpnfail_v2ray": {
-          "include": "机场,clash,订阅,节点,proxy,科学上网,v2ray,vless,trojan,socks5,ssr,白嫖",
-          "exclude": "试用,免费,测试,失效,过期,广告,推广,加群",
-          "config": {
-            "rename": "TG机场源-vpnfail"
-          },
-          "push_to": ["12-clash"]
-        },
-        "白嫖机场": {
-          "include": "机场,clash,订阅,节点,proxy,科学上网,v2ray,vless,trojan,socks5,ssr,白嫖",
-          "exclude": "试用,免费,测试,失效,过期,广告,推广,加群",
-          "config": {
-            "rename": "TG机场源-白嫖机场"
-          },
-          "push_to": ["12-clash"]
-        }
-      }
-    },
-    "google": {
-      "enable": false,
-      "exclude": "",
-      "notinurl": [],
-      "push_to": []
-    },
-    "github": {
-      "enable": true,
-      "pages": 4,
-      "push_to": ["12-clash"],
-      "exclude": "",
-      "spams": []
-    },
-    "twitter": {
-      "enable": false,
-      "users": {}
-    },
-    "repositories": [],
-    "pages": [],
-    "scripts": []
-  },
-  "groups": {
-    "12-clash": {
-      "emoji": true,
-      "list": true,
-      "targets": {
-        "clash": "12-clash",
-        "singbox": "23-singbox",
-        "v2ray": "v2ray"
-      },
-      "regularize": {
-        "enable": true,
-        "locate": true,
-        "bits": 2
-      }
-    }
-  },
-  "storage": {
-    "enabled": true,
-    "type": "gist",
-    "engine": "gist",
-    "token": "${GIST_PAT}",
-    "base": "https://api.github.com",
-    "domain": "https://gist.githubusercontent.com",
-    "items": {
-      "12-clash": {
-        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",
-        "filename": "12-clash.yaml"
-      },
-      "23-singbox": {
-        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",
-        "filename": "23-singbox.yaml"
-      },
-      "v2ray": {
-        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",
-        "filename": "v2ray.yaml"
-      },
-      "crawledsubs": {
-        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",
-        "filename": "crawledsubs.yaml"
-      },
-      "crawledproxies": {
-        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",
-        "filename": "crawledproxies.yaml"
-      }
-    }
-  }
+{  
+  "domains": [  
+    {  
+      "name": "纯爬虫",  
+      "sub": [],  
+      "domain": "",  
+      "enable": false,  
+      "rename": "",  
+      "include": "",  
+      "exclude": "",  
+      "push_to": [],  
+      "ignorede": true,  
+      "liveness": true,  
+      "rate": 2.5,  
+      "count": 2,  
+      "coupon": "",  
+      "secure": false  
+    }  
+  ],  
+  "plan_id": 3,  
+  "package": "",  
+  "method": 1,  
+  "coupon_code": "",  
+  "chatgpt": {  
+    "enable": false,  
+    "regex": "",  
+    "operate": "IN"  
+  },  
+  "crawl": {  
+    "enable": true,  
+    "exclude": "",  
+    "threshold": 5,  
+    "singlelink": true,  
+    "persist": {  
+      "subs": "crawledsubs",  
+      "proxies": "crawledproxies"  
+    },  
+    "config": {  
+      "rename": "",  
+      "include": "",  
+      "exclude": "",  
+      "xxxxxxx": ""  
+    },  
+    "telegram": {  
+      "enable": true,  
+      "pages": 6,  
+      "exclude": "",  
+      "users": {  
+        "go4sharing": {  
+          "include": "机场,clash,订阅,节点,proxy,科学上网,v2ray,vless,trojan,socks5,ssr,白嫖",  
+          "exclude": "试用,免费,测试,失效,过期,广告,推广,加群",  
+          "config": {  
+            "rename": "TG机场源-go4sharing"  
+          },  
+          "push_to": ["12-clash"]  
+        },  
+        "ZYFXS001": {  
+          "include": "机场,clash,订阅,节点,proxy,科学上网,v2ray,vless,trojan,socks5,ssr,白嫖",  
+          "exclude": "试用,免费,测试,失效,过期,广告,推广,加群",  
+          "config": {  
+            "rename": "TG机场源-ZYFXS001"  
+          },  
+          "push_to": ["12-clash"]  
+        },  
+        "vpnfail_v2ray": {  
+          "include": "机场,clash,订阅,节点,proxy,科学上网,v2ray,vless,trojan,socks5,ssr,白嫖",  
+          "exclude": "试用,免费,测试,失效,过期,广告,推广,加群",  
+          "config": {  
+            "rename": "TG机场源-vpnfail"  
+          },  
+          "push_to": ["12-clash"]  
+        },  
+        "白嫖机场": {  
+          "include": "机场,clash,订阅,节点,proxy,科学上网,v2ray,vless,trojan,socks5,ssr,白嫖",  
+          "exclude": "试用,免费,测试,失效,过期,广告,推广,加群",  
+          "config": {  
+            "rename": "TG机场源-白嫖机场"  
+          },  
+          "push_to": ["12-clash"]  
+        }  
+      }  
+    },  
+    "google": {  
+      "enable": false,  
+      "exclude": "",  
+      "notinurl": [],  
+      "push_to": []  
+    },  
+    "github": {  
+      "enable": true,  
+      "pages": 4,  
+      "push_to": ["12-clash"],  
+      "exclude": "",  
+      "spams": []  
+    },  
+    "twitter": {  
+      "enable": false,  
+      "users": {}  
+    },  
+    "repositories": [],  
+    "pages": [],  
+    "scripts": []  
+  },  
+  "groups": {  
+    "12-clash": {  
+      "emoji": true,  
+      "list": true,  
+      "targets": {  
+        "clash": "12-clash",  
+        "singbox": "23-singbox",  
+        "v2ray": "v2ray"  
+      },  
+      "regularize": {  
+        "enable": true,  
+        "locate": true,  
+        "bits": 2  
+      }  
+    }  
+  },  
+  "storage": {  
+    "engine": "gist",  
+    "token": "${GIST_PAT}",  
+    "base": "https://api.github.com",  
+    "domain": "https://gist.githubusercontent.com",  
+    "items": {  
+      "12-clash": {  
+        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
+        "filename": "12-clash.yaml"  
+      },  
+      "23-singbox": {  
+        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
+        "filename": "23-singbox.yaml"  
+      },  
+      "v2ray": {  
+        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
+        "filename": "v2ray.yaml"  
+      },  
+      "crawledsubs": {  
+        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
+        "filename": "crawledsubs.yaml"  
+      },  
+      "crawledproxies": {  
+        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
+        "filename": "crawledproxies.yaml"  
+      }  
+    }  
+  }  
 }
