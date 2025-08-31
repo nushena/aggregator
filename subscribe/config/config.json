@@ -1,72 +1,105 @@
-{
-    "domains": [],
-    "crawl": {
-        "enable": true,
-        "exclude": "",
-        "threshold": 5,
-        "singlelink": true,
-        "persist": {
-            "subs": "crawledsubs",
-            "proxies": "crawledproxies"
-        },
-        "telegram": {
-            "enable": false,
-            "pages": 3,
-            "exclude": "",
-            "users": {}
-        },
-        "github": {
-            "enable": true,
-            "pages": 2,
-            "exclude": "",
-            "spams": []
-        },
-        "twitter": {
-            "enable": false,
-            "users": {}
-        },
-        "pages": [],
-        "repositories": [],
-        "scripts": []
-    },
-    "groups": {
-        "default": {
-            "emoji": true,
-            "list": true,
-            "targets": {
-                "clash": "default-clash",
-                "singbox": "default-singbox",
-                "v2ray": "default-v2ray"
-            },
-            "regularize": {
-                "enable": false,
-                "locate": true,
-                "bits": 2
-            }
-        }
-    },
-    "storage": {
-        "enabled": true,
-        "type": "local",
-        "engine": "local",
-        "base": "./output",
-        "domain": "",
-        "items": {
-            "default-clash": {
-                "fileid": "clash.yaml"
-            },
-            "default-singbox": {
-                "fileid": "singbox.json"
-            },
-            "default-v2ray": {
-                "fileid": "v2ray.txt"
-            },
-            "crawledsubs": {
-                "fileid": "crawled_subs.txt"
-            },
-            "crawledproxies": {
-                "fileid": "crawled_proxies.txt"
-            }
-        }
-    }
+{  
+    "domains": [  
+        {  
+            "name": "example-domain",  
+            "sub": [],  
+            "domain": "example.com",  
+            "enable": true,  
+            "rename": "",  
+            "include": "",  
+            "exclude": "",  
+            "push_to": ["main-clash", "main-v2ray"],  
+            "ignorede": true,  
+            "liveness": true,  
+            "rate": 2.5,  
+            "count": 2,  
+            "coupon": "",  
+            "secure": false  
+        }  
+    ],  
+    "crawl": {  
+        "enable": true,  
+        "exclude": "",  
+        "threshold": 5,  
+        "singlelink": true,  
+        "persist": {  
+            "subs": "crawledsubs",  
+            "proxies": "crawledproxies"  
+        },  
+        "config": {  
+            "rename": "",  
+            "include": "",  
+            "exclude": ""  
+        },  
+        "telegram": {  
+            "enable": false,  
+            "pages": 5,  
+            "exclude": "",  
+            "users": {}  
+        },  
+        "google": {  
+            "enable": false,  
+            "exclude": "",  
+            "notinurl": [],  
+            "push_to": []  
+        },  
+        "github": {  
+            "enable": true,  
+            "pages": 2,  
+            "push_to": [],  
+            "exclude": "",  
+            "spams": []  
+        }  
+    },  
+    "groups": {  
+        "main": {  
+            "emoji": true,  
+            "list": true,  
+            "targets": {  
+                "clash": "main-clash",  
+                "singbox": "main-singbox",  
+                "v2ray": "main-v2ray"  
+            },  
+            "regularize": {  
+                "enable": false,  
+                "locate": true,  
+                "bits": 2  
+            }  
+        }  
+    },  
+    "storage": {  
+        "engine": "gist",  
+        "token": "",  
+        "base": "",  
+        "domain": "",  
+        "items": {  
+            "main-clash": {  
+                "username": "nushena",  
+                "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
+                "filename": "clash.yaml"  
+            },  
+            "main-singbox": {  
+                "username": "nushena",   
+                "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
+                "filename": "singbox.json"  
+            },  
+            "main-v2ray": {  
+                "username": "nushena",  
+                "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",   
+                "filename": "v2ray.txt"  
+            },  
+            "crawledsubs": {  
+                "username": "nushena",  
+                "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
+                "filename": "subscriptions.txt"  
+            },  
+            "crawledproxies": {  
+                "username": "nushena",  
+                "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
+                "filename": "proxies.yaml"  
+            }  
+        }  
+    },  
+    "update": {},  
+    "delay": 5000  
 }
