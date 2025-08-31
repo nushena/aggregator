@@ -46,26 +46,28 @@
         }
     },
     "storage": {
-        "engine": "local",
-        "base": "",
-        "domain": "",
-        "items": {
-            "default-clash": {
-                "fileid": "clash.yaml"
-            },
-            "default-singbox": {
-                "fileid": "singbox.json"
-            },
-            "default-v2ray": {
-                "fileid": "v2ray.txt"
-            },
-            "crawledsubs": {
-                "fileid": "crawled_subs.txt"
-            },
-            "crawledproxies": {
-                "fileid": "crawled_proxies.txt"
-            }
+    "enabled": false,
+    "type": "local",
+    "engine": "local",
+    "base": "",
+    "domain": "",
+    "items": {
+        "default-clash": {
+            "fileid": "clash_nushen.yaml"
+        },
+        "default-singbox": {
+            "fileid": "singbox_nushen.json"
+        },
+        "default-v2ray": {
+            "fileid": "v2ray_nushen.txt"
+        },
+        "crawledsubs": {
+            "fileid": "crawled_subs_nushen.txt"
+        },
+        "crawledproxies": {
+            "fileid": "crawled_proxies_nushen.txt"
         }
+    }
     },
     "push": {
         "enabled": false,
