@@ -1,4 +1,4 @@
-name: 2.Collect 每周一 扫描并生成
+name: 1.Collect 每周一完整数据收集
 on:
   # executed once a week on Sundays at 00:00
   schedule:
