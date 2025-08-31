@@ -1,0 +1,75 @@
+{
+    "domains": [],
+    "crawl": {
+        "enable": true,
+        "exclude": "",
+        "threshold": 5,
+        "singlelink": true,
+        "persist": {
+            "subs": "crawledsubs",
+            "proxies": "crawledproxies"
+        },
+        "telegram": {
+            "enable": true,
+            "pages": 3,
+            "exclude": "",
+            "users": {}
+        },
+        "github": {
+            "enable": true,
+            "pages": 2,
+            "exclude": "",
+            "spams": []
+        },
+        "twitter": {
+            "enable": false,
+            "users": {}
+        },
+        "pages": [],
+        "repositories": [],
+        "scripts": []
+    },
+    "groups": {
+        "default": {
+            "emoji": true,
+            "list": true,
+            "targets": {
+                "clash": "default-clash",
+                "singbox": "default-singbox",
+                "v2ray": "default-v2ray"
+            },
+            "regularize": {
+                "enable": false,
+                "locate": true,
+                "bits": 2
+            }
+        }
+    },
+    "storage": {
+        "engine": "local",
+        "base": "",
+        "domain": "",
+        "items": {
+            "default-clash": {
+                "fileid": "clash.yaml"
+            },
+            "default-singbox": {
+                "fileid": "singbox.json"
+            },
+            "default-v2ray": {
+                "fileid": "v2ray.txt"
+            },
+            "crawledsubs": {
+                "fileid": "crawled_subs.txt"
+            },
+            "crawledproxies": {
+                "fileid": "crawled_proxies.txt"
+            }
+        }
+    },
+    "push": {
+        "enabled": false,
+        "type": "local",
+        "path": "./output/"
+    }
+}
