@@ -1,4 +1,4 @@
-name: Delete
+name: 5.Delete 工作流程清理
 on:
   schedule:
     - cron: "0 0 * * SUN"
