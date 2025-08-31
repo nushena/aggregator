@@ -167,23 +167,23 @@
     "domain": "https://gist.githubusercontent.com",  
     "items": {  
       "12-clash": {  
-        "gistid": "d9873165cbcbe95478e889bf22776ad7",  
+        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
         "filename": "12-clash.yaml"  
       },  
       "23-singbox": {  
-        "gistid": "d9873165cbcbe95478e889bf22776ad7",  
+        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
         "filename": "23-singbox.yaml"  
       },  
       "v2ray": {  
-        "gistid": "d9873165cbcbe95478e889bf22776ad7",  
+        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
         "filename": "v2ray.yaml"  
       },  
       "crawledsubs": {  
-        "gistid": "d9873165cbcbe95478e889bf22776ad7",  
+        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
         "filename": "crawledsubs.yaml"  
       },  
       "crawledproxies": {  
-        "gistid": "d9873165cbcbe95478e889bf22776ad7",  
+        "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",  
         "filename": "crawledproxies.yaml"  
       }  
     }  
