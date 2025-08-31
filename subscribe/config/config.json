@@ -28,9 +28,17 @@
         "engine": "gist",
         "items": {
             "free:clash": {
-                "gistid": "你的gist id",
-                "filename": "clash.yaml "
+                "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",
+                "filename": "clash1.yaml "
             },
             "free:v2ray": {
-                "gistid": "你的gist id",
-                
+                "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",
+                "filename": "v2ray1.txt"
+            },
+            "free:singbox": {
+                "gistid": "92fd3cb5bc9f4f8362fb770422aeb2d0",
+                "filename": "singbox1.txt"
+            }
+        }
+    }
+}
