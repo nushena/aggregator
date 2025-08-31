@@ -1,4 +1,4 @@
-name: Process
+name: 3.Process 订阅处理和分发
 on:
   schedule:
     - cron: "05 03 * * *"
