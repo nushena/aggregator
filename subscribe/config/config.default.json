@@ -11,6 +11,7 @@
             "push_to": [],
             "ignorede": true,
             "liveness": true,
+            "tag": "",
             "rate": 2.5,
             "count": 2,
             "coupon": "",
@@ -161,6 +162,7 @@
     },
     "storage": {
         "engine": "xxx",
+        "token": "${PUSH_TOKEN}"，
         "base": "https://api.xxx.com",
         "domain": "https://xxx.com",
         "items": {
