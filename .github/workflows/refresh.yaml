@@ -1,4 +1,4 @@
-name: Refresh
+name: 1.Refresh 增量更新
 on:
   # performed every two hours
   schedule:
