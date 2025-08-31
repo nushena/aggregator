@@ -1,0 +1,36 @@
+{
+    "domains": [
+        {
+            "name": "随便",
+            "enable": true,
+            "liveness": true,
+            "sub": [
+                "https://abc.com/clash.yaml",
+                "https://xxx.com/api/v1/client/subscribe?token=xxx"
+            ],
+            "push_to": [
+                "free"
+            ]
+        }
+    ],
+    "groups": {
+        "free": {
+            "emoji": true,
+            "targets": {
+                "clash": "free:clash",
+                "v2ray": "free:v2ray",
+                "singbox": "free:singbox",
+                "别的类型": "随便写"
+            }
+        }
+    },
+    "storage": {
+        "engine": "gist",
+        "items": {
+            "free:clash": {
+                "gistid": "你的gist id",
+                "filename": "clash.yaml "
+            },
+            "free:v2ray": {
+                "gistid": "你的gist id",
+                
